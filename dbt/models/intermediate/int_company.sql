@@ -1,7 +1,3 @@
--- Materialize as view
-
-{{ config(alias = 'Company details', materialized='view') }}
-
 WITH company as (
     SELECT * FROM {{ ref('stg_chicago_taxi') }}
 
@@ -10,6 +6,7 @@ WITH company as (
 final as (
     SELECT 
         taxi_id,
+        trip_id,
         company
     FROM company
 )

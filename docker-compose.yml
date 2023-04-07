@@ -71,3 +71,20 @@ services:
     depends_on:
       - postgres-airflow
       - postgres-dbt
+
+  metabase:
+    image: metabase/metabase
+    restart: always
+    environment:
+      MB_DB_TYPE: 'postgres'
+      MB_DB_HOST: 'postgres-dbt'
+      MB_DB_PORT: '5432'
+      MB_DB_DBNAME: 'dbtdb'
+      MB_DB_USER: 'dbtuser'
+      MB_DB_PASS: 'pssd'
+    ports:
+      - 3000:3000
+    volumes:
+      - ./metabase/metabase.db:/metabase.db
+    depends_on:
+      - postgres-dbt

@@ -1,14 +1,19 @@
--- Materialize as view
-
-{{ config(alias = 'src_chicago_taxi', materialized='view') }}
-
+{{ 
+  config(
+    materialized='incremental',
+    unique_key='trip_id',
+    sort='trip_start_timestamp',
+    on_schema_change='fail',
+    incremental_strategy='merge'
+  ) 
+}}
 
 WITH chicago_taxi as (
     SELECT 
 *
 
     FROM {{source ('dbt_raw_data', 'chicago_data')}}
-    LIMIT 100000
+    -- LIMIT 50000
 )
 
 SELECT * FROM chicago_taxi

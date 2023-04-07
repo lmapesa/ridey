@@ -1,7 +1,3 @@
--- Materialize as view
-
-{{ config(alias = 'Trip Time detail', materialized='view') }}
-
 WITH trip_time as (
     SELECT * FROM {{ ref('stg_chicago_taxi') }}
 
@@ -14,6 +10,7 @@ final as (
         trip_end_timestamp,
         trip_seconds,
         trip_miles,
+        ROUND(CAST(trip_miles * 1.60934 AS numeric), 2) AS trip_kilometers,
         DATE_PART('hour', trip_start_timestamp) AS hour,
         AVG(trip_seconds)/60 AS trip_minutes,
         COUNT(*) AS count, -- is it needed here or higher upstream?

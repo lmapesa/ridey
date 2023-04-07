@@ -1,7 +1,3 @@
--- Materialize as view
-
-{{ config(alias = 'Trip metrics', materialized='view') }}
-
 WITH trip_metrics as (
     SELECT * FROM {{ ref('stg_chicago_taxi') }}
 

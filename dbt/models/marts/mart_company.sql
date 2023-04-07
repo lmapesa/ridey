@@ -17,7 +17,7 @@ trip_location as (
 final as (
     SELECT
         company.company,
-        COUNT(DISTINCT trip_metrics.trip_id) AS no_of_trips,
+        COUNT(DISTINCT company.trip_id) AS no_of_trips, -- verify trip_id to use upstream company or trip_details then rm from int comp
         SUM(payment.trip_total) AS amount_earned,
         trip_location.pickup_census_tract,
         trip_location.dropoff_census_tract,
