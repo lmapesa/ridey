@@ -1,0 +1,14 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ga82764.ap-south-1.aws
+      user: mldev3 #"{{ env_var('dbt_user') }}"
+      password: 23MAP#levs #"{{ env_var('dbt_password') }}"
+      role: ACCOUNTADMIN
+      database: CHICAGO_DATA
+      warehouse: compute_WH
+      schema: levin
+      threads: 5
+      client_session_keep_alive: False

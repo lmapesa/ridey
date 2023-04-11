@@ -1,0 +1,169 @@
+[2023-04-10 12:44:44,067] {processor.py:163} INFO - Started process (PID=287) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:44:44,068] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:44:44,069] {logging_mixin.py:109} INFO - [2023-04-10 12:44:44,069] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:44:44,084] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:44:45,227] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,227] {providers_manager.py:702} WARNING - The field in_cluster from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,228] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,228] {providers_manager.py:702} WARNING - The field kube_config_path from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,228] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,228] {providers_manager.py:702} WARNING - The field kube_config from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,229] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,229] {providers_manager.py:702} WARNING - The field namespace from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,229] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,229] {providers_manager.py:702} WARNING - The field cluster_context from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,229] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,229] {providers_manager.py:702} WARNING - The field disable_verify_ssl from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,230] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,230] {providers_manager.py:702} WARNING - The field disable_tcp_keepalive from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,230] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,230] {providers_manager.py:702} WARNING - The field xcom_sidecar_container_image from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,283] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,283] {providers_manager.py:702} WARNING - The field reauth from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,283] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,283] {providers_manager.py:702} WARNING - The field email from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,700] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,700] {providers_manager.py:702} WARNING - The field project from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,701] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,700] {providers_manager.py:702} WARNING - The field key_path from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,702] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,701] {providers_manager.py:702} WARNING - The field keyfile_dict from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,702] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,702] {providers_manager.py:702} WARNING - The field scope from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,702] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,702] {providers_manager.py:702} WARNING - The field key_secret_name from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,703] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,703] {providers_manager.py:702} WARNING - The field key_secret_project_id from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:45,703] {logging_mixin.py:109} INFO - [2023-04-10 12:44:45,703] {providers_manager.py:702} WARNING - The field num_retries from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,642] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,642] {providers_manager.py:702} WARNING - The field auth_type from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,642] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,642] {providers_manager.py:702} WARNING - The field credential_pem_file from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,642] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,642] {providers_manager.py:702} WARNING - The field scopes from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,733] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,733] {providers_manager.py:702} WARNING - The field tenant from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,734] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,734] {providers_manager.py:702} WARNING - The field auth_method from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,734] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,734] {providers_manager.py:702} WARNING - The field certificate from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,735] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,734] {providers_manager.py:702} WARNING - The field thumbprint from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,756] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,756] {providers_manager.py:702} WARNING - The field account_url from class AzureBatchHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,778] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,778] {providers_manager.py:702} WARNING - The field database_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,779] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,779] {providers_manager.py:702} WARNING - The field collection_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,814] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,814] {providers_manager.py:702} WARNING - The field sas_token from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,815] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,815] {providers_manager.py:702} WARNING - The field connection_string from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,815] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,815] {providers_manager.py:702} WARNING - The field protocol from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,832] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,831] {providers_manager.py:702} WARNING - The field connection_string from class AzureContainerVolumeHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,900] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,900] {providers_manager.py:702} WARNING - The field tenantId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,901] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,901] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,901] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,901] {providers_manager.py:702} WARNING - The field resource_group_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,902] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,902] {providers_manager.py:702} WARNING - The field factory_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,946] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,946] {providers_manager.py:702} WARNING - The field tenantId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:46,947] {logging_mixin.py:109} INFO - [2023-04-10 12:44:46,947] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,031] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+[2023-04-10 12:44:47,345] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,345] {providers_manager.py:702} WARNING - The field in_cluster from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,345] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,345] {providers_manager.py:702} WARNING - The field kube_config_path from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,346] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,346] {providers_manager.py:702} WARNING - The field kube_config from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,346] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,346] {providers_manager.py:702} WARNING - The field namespace from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,346] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,346] {providers_manager.py:702} WARNING - The field cluster_context from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,347] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,347] {providers_manager.py:702} WARNING - The field disable_verify_ssl from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,347] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,347] {providers_manager.py:702} WARNING - The field disable_tcp_keepalive from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,347] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,347] {providers_manager.py:702} WARNING - The field xcom_sidecar_container_image from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,348] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,348] {providers_manager.py:702} WARNING - The field reauth from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,348] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,348] {providers_manager.py:702} WARNING - The field email from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,349] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,349] {providers_manager.py:702} WARNING - The field project from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,350] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,350] {providers_manager.py:702} WARNING - The field key_path from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,350] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,350] {providers_manager.py:702} WARNING - The field keyfile_dict from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,350] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,350] {providers_manager.py:702} WARNING - The field scope from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,350] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,350] {providers_manager.py:702} WARNING - The field key_secret_name from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,351] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,351] {providers_manager.py:702} WARNING - The field key_secret_project_id from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,351] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,351] {providers_manager.py:702} WARNING - The field num_retries from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,353] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,353] {providers_manager.py:702} WARNING - The field auth_type from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,353] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,353] {providers_manager.py:702} WARNING - The field credential_pem_file from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,353] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,353] {providers_manager.py:702} WARNING - The field scopes from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,354] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,354] {providers_manager.py:702} WARNING - The field tenant from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,354] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,354] {providers_manager.py:702} WARNING - The field auth_method from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,355] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,355] {providers_manager.py:702} WARNING - The field certificate from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,355] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,355] {providers_manager.py:702} WARNING - The field thumbprint from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,355] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,355] {providers_manager.py:702} WARNING - The field account_url from class AzureBatchHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,356] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,356] {providers_manager.py:702} WARNING - The field database_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,356] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,356] {providers_manager.py:702} WARNING - The field collection_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,359] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,359] {providers_manager.py:702} WARNING - The field sas_token from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,359] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,359] {providers_manager.py:702} WARNING - The field connection_string from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,360] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,359] {providers_manager.py:702} WARNING - The field protocol from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,360] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,360] {providers_manager.py:702} WARNING - The field connection_string from class AzureContainerVolumeHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,362] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,362] {providers_manager.py:702} WARNING - The field tenantId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,363] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,363] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,363] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,363] {providers_manager.py:702} WARNING - The field resource_group_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,364] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,364] {providers_manager.py:702} WARNING - The field factory_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,365] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,365] {providers_manager.py:702} WARNING - The field tenantId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,366] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,366] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:44:47,390] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,390] {manager.py:496} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-04-10 12:44:47,400] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,400] {manager.py:496} INFO - Created Permission View: can read on DAG:latest_only
+[2023-04-10 12:44:47,401] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,401] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:44:47,553] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,552] {dag.py:2417} INFO - Creating ORM DAG for latest_only
+[2023-04-10 12:44:47,562] {logging_mixin.py:109} INFO - [2023-04-10 12:44:47,562] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:44:47.562034+00:00
+[2023-04-10 12:44:47,577] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 3.513 seconds
+[2023-04-10 12:45:17,830] {processor.py:163} INFO - Started process (PID=556) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:17,832] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:45:17,832] {logging_mixin.py:109} INFO - [2023-04-10 12:45:17,832] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:17,848] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:17,870] {logging_mixin.py:109} INFO - [2023-04-10 12:45:17,870] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:45:17,888] {logging_mixin.py:109} INFO - [2023-04-10 12:45:17,887] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:45:17.887514+00:00
+[2023-04-10 12:45:17,902] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-04-10 12:45:48,602] {processor.py:163} INFO - Started process (PID=608) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:48,603] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:45:48,604] {logging_mixin.py:109} INFO - [2023-04-10 12:45:48,604] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:48,615] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:45:48,635] {logging_mixin.py:109} INFO - [2023-04-10 12:45:48,634] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:45:48,650] {logging_mixin.py:109} INFO - [2023-04-10 12:45:48,650] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:45:48.650455+00:00
+[2023-04-10 12:45:48,664] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-04-10 12:46:18,953] {processor.py:163} INFO - Started process (PID=670) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:18,954] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:46:18,955] {logging_mixin.py:109} INFO - [2023-04-10 12:46:18,955] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:18,970] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:18,991] {logging_mixin.py:109} INFO - [2023-04-10 12:46:18,991] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:46:19,011] {logging_mixin.py:109} INFO - [2023-04-10 12:46:19,011] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:46:19.011024+00:00
+[2023-04-10 12:46:19,026] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-04-10 12:46:49,337] {processor.py:163} INFO - Started process (PID=722) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:49,339] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:46:49,341] {logging_mixin.py:109} INFO - [2023-04-10 12:46:49,341] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:49,363] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:46:49,385] {logging_mixin.py:109} INFO - [2023-04-10 12:46:49,385] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:46:49,401] {logging_mixin.py:109} INFO - [2023-04-10 12:46:49,401] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:46:49.401401+00:00
+[2023-04-10 12:46:49,411] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-04-10 12:47:19,877] {processor.py:163} INFO - Started process (PID=784) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:19,878] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:47:19,879] {logging_mixin.py:109} INFO - [2023-04-10 12:47:19,879] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:19,891] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:19,917] {logging_mixin.py:109} INFO - [2023-04-10 12:47:19,917] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:47:19,934] {logging_mixin.py:109} INFO - [2023-04-10 12:47:19,934] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:47:19.934020+00:00
+[2023-04-10 12:47:19,944] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-04-10 12:47:50,785] {processor.py:163} INFO - Started process (PID=836) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:50,787] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:47:50,788] {logging_mixin.py:109} INFO - [2023-04-10 12:47:50,788] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:50,809] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:47:50,837] {logging_mixin.py:109} INFO - [2023-04-10 12:47:50,836] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:47:50,870] {logging_mixin.py:109} INFO - [2023-04-10 12:47:50,870] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:47:50.870134+00:00
+[2023-04-10 12:47:50,884] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2023-04-10 12:48:21,848] {processor.py:163} INFO - Started process (PID=898) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:21,849] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:48:21,850] {logging_mixin.py:109} INFO - [2023-04-10 12:48:21,850] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:21,861] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:21,881] {logging_mixin.py:109} INFO - [2023-04-10 12:48:21,881] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:48:21,904] {logging_mixin.py:109} INFO - [2023-04-10 12:48:21,904] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:48:21.903889+00:00
+[2023-04-10 12:48:21,920] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-04-10 12:48:52,711] {processor.py:163} INFO - Started process (PID=950) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:52,714] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:48:52,715] {logging_mixin.py:109} INFO - [2023-04-10 12:48:52,715] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:52,726] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:48:52,742] {logging_mixin.py:109} INFO - [2023-04-10 12:48:52,742] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:48:52,756] {logging_mixin.py:109} INFO - [2023-04-10 12:48:52,755] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:48:52.755758+00:00
+[2023-04-10 12:48:52,766] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2023-04-10 12:49:23,656] {processor.py:163} INFO - Started process (PID=1011) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:23,657] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:49:23,658] {logging_mixin.py:109} INFO - [2023-04-10 12:49:23,658] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:23,670] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:23,690] {logging_mixin.py:109} INFO - [2023-04-10 12:49:23,690] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:49:23,712] {logging_mixin.py:109} INFO - [2023-04-10 12:49:23,712] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:49:23.712384+00:00
+[2023-04-10 12:49:23,727] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2023-04-10 12:49:53,859] {processor.py:163} INFO - Started process (PID=1063) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:53,860] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:49:53,861] {logging_mixin.py:109} INFO - [2023-04-10 12:49:53,861] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:53,883] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:49:53,905] {logging_mixin.py:109} INFO - [2023-04-10 12:49:53,905] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:49:53,929] {logging_mixin.py:109} INFO - [2023-04-10 12:49:53,928] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:49:53.928480+00:00
+[2023-04-10 12:49:54,040] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.186 seconds
+[2023-04-10 12:50:24,766] {processor.py:163} INFO - Started process (PID=1124) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:24,768] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:50:24,768] {logging_mixin.py:109} INFO - [2023-04-10 12:50:24,768] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:24,779] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:24,798] {logging_mixin.py:109} INFO - [2023-04-10 12:50:24,798] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:50:24,884] {logging_mixin.py:109} INFO - [2023-04-10 12:50:24,884] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:50:24.883914+00:00
+[2023-04-10 12:50:24,895] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.135 seconds
+[2023-04-10 12:50:55,230] {processor.py:163} INFO - Started process (PID=1176) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:55,231] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-04-10 12:50:55,232] {logging_mixin.py:109} INFO - [2023-04-10 12:50:55,232] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:55,246] {processor.py:652} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2023-04-10 12:50:55,270] {logging_mixin.py:109} INFO - [2023-04-10 12:50:55,270] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-04-10 12:50:55,385] {logging_mixin.py:109} INFO - [2023-04-10 12:50:55,385] {dag.py:2937} INFO - Setting next_dagrun for latest_only to 2023-04-10T08:50:55.385476+00:00
+[2023-04-10 12:50:55,395] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.168 seconds

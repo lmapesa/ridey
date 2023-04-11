@@ -1,0 +1,236 @@
+[2023-04-10 12:45:04,351] {processor.py:163} INFO - Started process (PID=473) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:04,353] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:45:04,353] {logging_mixin.py:109} INFO - [2023-04-10 12:45:04,353] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:04,382] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:05,396] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,395] {providers_manager.py:702} WARNING - The field in_cluster from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,396] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,396] {providers_manager.py:702} WARNING - The field kube_config_path from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,396] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,396] {providers_manager.py:702} WARNING - The field kube_config from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,397] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,397] {providers_manager.py:702} WARNING - The field namespace from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,397] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,397] {providers_manager.py:702} WARNING - The field cluster_context from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,398] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,398] {providers_manager.py:702} WARNING - The field disable_verify_ssl from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,398] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,398] {providers_manager.py:702} WARNING - The field disable_tcp_keepalive from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,399] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,398] {providers_manager.py:702} WARNING - The field xcom_sidecar_container_image from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,466] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,466] {providers_manager.py:702} WARNING - The field reauth from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,466] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,466] {providers_manager.py:702} WARNING - The field email from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,911] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,911] {providers_manager.py:702} WARNING - The field project from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,912] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,912] {providers_manager.py:702} WARNING - The field key_path from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,912] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,912] {providers_manager.py:702} WARNING - The field keyfile_dict from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,913] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,913] {providers_manager.py:702} WARNING - The field scope from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,913] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,913] {providers_manager.py:702} WARNING - The field key_secret_name from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,914] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,914] {providers_manager.py:702} WARNING - The field key_secret_project_id from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:05,914] {logging_mixin.py:109} INFO - [2023-04-10 12:45:05,914] {providers_manager.py:702} WARNING - The field num_retries from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,700] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,699] {providers_manager.py:702} WARNING - The field auth_type from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,700] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,700] {providers_manager.py:702} WARNING - The field credential_pem_file from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,701] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,701] {providers_manager.py:702} WARNING - The field scopes from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,782] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,782] {providers_manager.py:702} WARNING - The field tenant from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,782] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,782] {providers_manager.py:702} WARNING - The field auth_method from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,783] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,783] {providers_manager.py:702} WARNING - The field certificate from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,783] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,783] {providers_manager.py:702} WARNING - The field thumbprint from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,802] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,802] {providers_manager.py:702} WARNING - The field account_url from class AzureBatchHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,817] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,816] {providers_manager.py:702} WARNING - The field database_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,817] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,817] {providers_manager.py:702} WARNING - The field collection_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,850] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,850] {providers_manager.py:702} WARNING - The field sas_token from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,851] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,851] {providers_manager.py:702} WARNING - The field connection_string from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,851] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,851] {providers_manager.py:702} WARNING - The field protocol from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,866] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,866] {providers_manager.py:702} WARNING - The field connection_string from class AzureContainerVolumeHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,928] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,927] {providers_manager.py:702} WARNING - The field tenantId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,928] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,928] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,929] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,929] {providers_manager.py:702} WARNING - The field resource_group_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,929] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,929] {providers_manager.py:702} WARNING - The field factory_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,978] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,978] {providers_manager.py:702} WARNING - The field tenantId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:06,979] {logging_mixin.py:109} INFO - [2023-04-10 12:45:06,979] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,159] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<6.1.0,>=6.0.0; extra == "pandas"'
+[2023-04-10 12:45:07,403] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,403] {providers_manager.py:702} WARNING - The field in_cluster from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,403] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,403] {providers_manager.py:702} WARNING - The field kube_config_path from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,404] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,404] {providers_manager.py:702} WARNING - The field kube_config from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,404] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,404] {providers_manager.py:702} WARNING - The field namespace from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,405] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,405] {providers_manager.py:702} WARNING - The field cluster_context from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,405] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,405] {providers_manager.py:702} WARNING - The field disable_verify_ssl from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,405] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,405] {providers_manager.py:702} WARNING - The field disable_tcp_keepalive from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,406] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,406] {providers_manager.py:702} WARNING - The field xcom_sidecar_container_image from class KubernetesHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,407] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,407] {providers_manager.py:702} WARNING - The field reauth from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,407] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,407] {providers_manager.py:702} WARNING - The field email from class DockerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,408] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,408] {providers_manager.py:702} WARNING - The field project from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,408] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,408] {providers_manager.py:702} WARNING - The field key_path from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,409] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,408] {providers_manager.py:702} WARNING - The field keyfile_dict from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,409] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,409] {providers_manager.py:702} WARNING - The field scope from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,409] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,409] {providers_manager.py:702} WARNING - The field key_secret_name from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,410] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,409] {providers_manager.py:702} WARNING - The field key_secret_project_id from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,410] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,410] {providers_manager.py:702} WARNING - The field num_retries from class GoogleBaseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,412] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,412] {providers_manager.py:702} WARNING - The field auth_type from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,412] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,412] {providers_manager.py:702} WARNING - The field credential_pem_file from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,412] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,412] {providers_manager.py:702} WARNING - The field scopes from class GrpcHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,413] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,413] {providers_manager.py:702} WARNING - The field tenant from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,414] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,414] {providers_manager.py:702} WARNING - The field auth_method from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,414] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,414] {providers_manager.py:702} WARNING - The field certificate from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,414] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,414] {providers_manager.py:702} WARNING - The field thumbprint from class AzureDataExplorerHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,415] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,415] {providers_manager.py:702} WARNING - The field account_url from class AzureBatchHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,415] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,415] {providers_manager.py:702} WARNING - The field database_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,416] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,416] {providers_manager.py:702} WARNING - The field collection_name from class AzureCosmosDBHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,418] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,418] {providers_manager.py:702} WARNING - The field sas_token from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,419] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,418] {providers_manager.py:702} WARNING - The field connection_string from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,419] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,419] {providers_manager.py:702} WARNING - The field protocol from class AzureFileShareHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,419] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,419] {providers_manager.py:702} WARNING - The field connection_string from class AzureContainerVolumeHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,421] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,421] {providers_manager.py:702} WARNING - The field tenantId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,422] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,422] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,422] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,422] {providers_manager.py:702} WARNING - The field resource_group_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,422] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,422] {providers_manager.py:702} WARNING - The field factory_name from class AzureDataFactoryHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,423] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,423] {providers_manager.py:702} WARNING - The field tenantId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,424] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,424] {providers_manager.py:702} WARNING - The field subscriptionId from class AzureSynapseHook does not start with 'extra__'. Ignoring it.
+[2023-04-10 12:45:07,454] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,453] {manager.py:496} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2023-04-10 12:45:07,465] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,464] {manager.py:496} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2023-04-10 12:45:07,466] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,465] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:45:07,474] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,473] {dag.py:2417} INFO - Creating ORM DAG for example_subdag_operator
+[2023-04-10 12:45:07,475] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,475] {dag.py:2417} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2023-04-10 12:45:07,476] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,476] {dag.py:2417} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2023-04-10 12:45:07,483] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,483] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:45:07,484] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,484] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:45:07,485] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,484] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:45:07,492] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,492] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:45:07,500] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,500] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:45:07,501] {logging_mixin.py:109} INFO - [2023-04-10 12:45:07,501] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:45:07,511] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 3.162 seconds
+[2023-04-10 12:45:37,692] {processor.py:163} INFO - Started process (PID=577) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:37,694] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:45:37,695] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,695] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:37,739] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:45:37,751] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,751] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:45:37,768] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,768] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:45:37,769] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,768] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:45:37,769] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,769] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:45:37,776] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,776] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:45:37,785] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,785] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:45:37,786] {logging_mixin.py:109} INFO - [2023-04-10 12:45:37,786] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:45:37,794] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.106 seconds
+[2023-04-10 12:46:07,898] {processor.py:163} INFO - Started process (PID=639) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:07,899] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:46:07,900] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,900] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:07,926] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:07,935] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,935] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:46:07,949] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,949] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:46:07,950] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,950] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:46:07,950] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,950] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:46:07,955] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,955] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:46:07,963] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,963] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:46:07,963] {logging_mixin.py:109} INFO - [2023-04-10 12:46:07,963] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:46:07,971] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.076 seconds
+[2023-04-10 12:46:38,479] {processor.py:163} INFO - Started process (PID=691) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:38,480] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:46:38,481] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,480] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:38,511] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:46:38,523] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,523] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:46:38,537] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,537] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:46:38,538] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,538] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:46:38,538] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,538] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:46:38,544] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,544] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:46:38,553] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,553] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:46:38,554] {logging_mixin.py:109} INFO - [2023-04-10 12:46:38,554] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:46:38,561] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.085 seconds
+[2023-04-10 12:47:08,771] {processor.py:163} INFO - Started process (PID=753) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:08,772] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:47:08,773] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,773] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:08,804] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:08,816] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,816] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:47:08,833] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,833] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:47:08,834] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,834] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:47:08,834] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,834] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:47:08,841] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,841] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:47:08,852] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,852] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:47:08,852] {logging_mixin.py:109} INFO - [2023-04-10 12:47:08,852] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:47:08,862] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.093 seconds
+[2023-04-10 12:47:39,331] {processor.py:163} INFO - Started process (PID=805) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:39,332] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:47:39,333] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,333] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:39,373] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:47:39,389] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,389] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:47:39,412] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,412] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:47:39,413] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,413] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:47:39,414] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,414] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:47:39,422] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,422] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:47:39,433] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,433] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:47:39,434] {logging_mixin.py:109} INFO - [2023-04-10 12:47:39,434] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:47:39,444] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.118 seconds
+[2023-04-10 12:48:09,721] {processor.py:163} INFO - Started process (PID=867) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:09,723] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:48:09,724] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,723] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:09,766] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:09,781] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,781] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:48:09,802] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,802] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:48:09,803] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,803] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:48:09,803] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,803] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:48:09,813] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,813] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:48:09,824] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,824] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:48:09,824] {logging_mixin.py:109} INFO - [2023-04-10 12:48:09,824] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:48:09,833] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.115 seconds
+[2023-04-10 12:48:39,949] {processor.py:163} INFO - Started process (PID=920) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:39,950] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:48:39,951] {logging_mixin.py:109} INFO - [2023-04-10 12:48:39,951] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:39,981] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:48:39,992] {logging_mixin.py:109} INFO - [2023-04-10 12:48:39,991] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:48:40,005] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,005] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:48:40,006] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,006] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:48:40,006] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,006] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:48:40,012] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,012] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:48:40,018] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,018] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:48:40,019] {logging_mixin.py:109} INFO - [2023-04-10 12:48:40,019] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:48:40,027] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.082 seconds
+[2023-04-10 12:49:10,313] {processor.py:163} INFO - Started process (PID=980) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:10,316] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:49:10,318] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,318] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:10,359] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:10,370] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,370] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:49:10,385] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,385] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:49:10,386] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,386] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:49:10,386] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,386] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:49:10,391] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,391] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:49:10,401] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,401] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:49:10,402] {logging_mixin.py:109} INFO - [2023-04-10 12:49:10,402] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:49:10,505] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.199 seconds
+[2023-04-10 12:49:40,761] {processor.py:163} INFO - Started process (PID=1033) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:40,763] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:49:40,765] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,764] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:40,804] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:49:40,816] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,816] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:49:40,830] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,830] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:49:40,830] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,830] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:49:40,831] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,830] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:49:40,903] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,903] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:49:40,911] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,911] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:49:40,912] {logging_mixin.py:109} INFO - [2023-04-10 12:49:40,911] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:49:40,920] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.163 seconds
+[2023-04-10 12:50:11,030] {processor.py:163} INFO - Started process (PID=1094) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:11,031] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:50:11,032] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,032] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:11,074] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:11,085] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,085] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:50:11,190] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,189] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:50:11,190] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,190] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:50:11,191] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,191] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:50:11,199] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,199] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:50:11,208] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,208] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:50:11,209] {logging_mixin.py:109} INFO - [2023-04-10 12:50:11,208] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:50:11,218] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.191 seconds
+[2023-04-10 12:50:41,631] {processor.py:163} INFO - Started process (PID=1145) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:41,633] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:50:41,634] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,634] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:41,661] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:50:41,672] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,672] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:50:41,765] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,765] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:50:41,766] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,765] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:50:41,766] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,766] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:50:41,771] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,771] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:50:41,778] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,778] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:50:41,779] {logging_mixin.py:109} INFO - [2023-04-10 12:50:41,779] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:50:41,787] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.159 seconds
+[2023-04-10 12:51:12,023] {processor.py:163} INFO - Started process (PID=1205) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:51:12,024] {processor.py:642} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-04-10 12:51:12,026] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,025] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:51:12,061] {processor.py:652} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-04-10 12:51:12,073] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,072] {dag.py:2398} INFO - Sync 3 DAGs
+[2023-04-10 12:51:12,165] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,165] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator to 2023-04-08T00:00:00+00:00
+[2023-04-10 12:51:12,166] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,166] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:51:12,166] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,166] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:51:12,171] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,171] {dag.py:2398} INFO - Sync 2 DAGs
+[2023-04-10 12:51:12,181] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,181] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-04-10 12:51:12,182] {logging_mixin.py:109} INFO - [2023-04-10 12:51:12,182] {dag.py:2937} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-04-10 12:51:12,192] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.173 seconds
