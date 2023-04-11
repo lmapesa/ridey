@@ -1,15 +1,14 @@
 ### Creative Fabrica Analytics Engineer Task
 
 # Deliverabales
-1. Design a Billing data mart + diagram
-2. Load Data as views in snowflake
-3. Scripts for loading data -- N/A as DBT is doing transformations withing the warehouse
-4. Data cleaning 
-5. EDA with a tool of your choice (BI tool, python, Excel, ..)
-6. Answer some business questions i.e
-    - What is the average price of the top-5 prescribed products
-    - Typical treatment for diagnosis X
-    - Charge for products between different providers
+1. Extraction of data from https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data.
+2. Design a new database to hold the data
+3. Load the Chicago Taxi data to the new database
+4. Clean and transform the data
+5. Store the transformed data
+6. Attach a BI Tool to the data warehouse for self-service analytics
+7. Ensure a performant, reliable, scalable, and transparent data pipeline
+
 
 
 # Tools used
@@ -18,6 +17,7 @@
 3. Docker - Containerization to ship app
 4. Metabase - Visualization 
 5. Snowflake - Data warehouse
+
 
 # How to run the project
 1. Go to the project root directory
@@ -28,8 +28,11 @@
     password: airflow
 5. Go to Admin Tab -> Variables
 6. Add new variables
-    dbt_user: dbt_user
-    dbt_password: pssd
+    dbt_user: Username in CTO Documentation (Chapter 7: Running the project)
+    dbt_password: Passowrd in CTO Documentation (Chapter 7: Running the project)
 7. Go to DAGs 
 8. Unpause and activate
 9. Check views and tables in snowflake
+
+# Check the views and Tables in Snowflake
+Username and password in CTO Documentation (Chapter 7: Running the project)

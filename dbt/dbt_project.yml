@@ -35,9 +35,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
     chicago_taxi_dbt_models:
         sources:
-            materialized: table
+            materialized: view
         staging:
-            materialized: table
+            materialized: view
         intermediate:
             materialized: table
         marts:

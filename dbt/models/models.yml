@@ -1,0 +1,27 @@
+version: 2
+
+models:
+      - name: Chicago Taxi
+        description: Chicago taxi data
+        columns:
+          - name: Trip_ID
+          - name: Taxi_ID
+          - name: Trip_Start_Timestamp
+          - name: Trip_End_Timestamp
+          - name: Trip_Seconds
+          - name: Trip_Miles
+          - name: Pickup_Census_Tract
+          - name: Dropoff_Census_Tract
+          - name: Pickup_Community_Area
+          - name: Dropoff_Community_Area
+          - name: Fare
+          - name: Tips
+          - name: Tolls
+          - name: Extras
+          - name: Trip_Total
+          - name: Payment_Type
+          - name: Company
+          - name: Pickup_Centroid_Latitude
+          - name: Pickup_Centroid_Longitude
+          - name: Dropoff_Centroid_Latitude
+          - name: Dropoff_Centroid_Longitude
