@@ -1,4 +1,4 @@
-### Creative Fabrica Analytics Engineer Task
+### CF Analytics Engineer Task
 
 # Deliverabales
 1. Extraction of data from https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew/data.
