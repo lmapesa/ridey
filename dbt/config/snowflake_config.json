@@ -1,9 +1,0 @@
-{
-    "account": "ga82764.ap-south-1.aws",
-    "user": "mldev3",
-    "password": "23MAP#levs",
-    "database": "chicago_data",
-    "schema": "dbt_raw_data",
-    "warehouse": "compute_wh",
-    "stage": "chicago_stage"
-}
