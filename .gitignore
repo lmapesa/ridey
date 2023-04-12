@@ -12,3 +12,6 @@ venv/
 # Cached files
 dbt-airflow/logs
 dbt-airflow/plugins
+logs/
+dbt/config
+dbt/data
