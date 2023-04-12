@@ -4,11 +4,16 @@ default:
     dev:
       type: snowflake
       account: ga82764.ap-south-1.aws
-      user: "{{ env_var('dbt_user') }}"
-      password: "{{ env_var('dbt_password') }}"
+      user: mldev3
+      password: 23MAP#levs
       role: ACCOUNTADMIN
       database: CHICAGO_DATA
       warehouse: compute_WH
-      schema: levin
+      schema: LEVIN
       threads: 5
       client_session_keep_alive: False
+
+
+
+      # user: "{{ env_var('dbt_user') }}"
+      # password: "{{ env_var('dbt_password') }}"

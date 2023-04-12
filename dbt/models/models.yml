@@ -5,23 +5,56 @@ models:
         description: Chicago taxi data
         columns:
           - name: Trip_ID
+            description: A unique identifier for the trip.
+            tests:
+              - unique
+              - not-null
           - name: Taxi_ID
+            description: A unique identifier for the taxi.
+            tests:
+              - unique
+              - not-null
           - name: Trip_Start_Timestamp
+            description: When the trip started, rounded to the nearest 15 minutes.
+            freshness:
+              warn_after: {count: 28, period: day}
+              error_after: {count: 32, period: day}
           - name: Trip_End_Timestamp
+            description: When the trip ended, rounded to the nearest 15 minutes.
           - name: Trip_Seconds
+            description: Time of the trip in seconds.
           - name: Trip_Miles
+            description: Distance of the trip in miles.
           - name: Pickup_Census_Tract
+            description: The Census Tract where the trip began. For privacy, this Census Tract is not shown for some trips.
           - name: Dropoff_Census_Tract
+            description: The Census Tract where the trip ended. For privacy, this Census Tract is not shown for some trips.
           - name: Pickup_Community_Area
+            description: The Community Area where the trip began.
           - name: Dropoff_Community_Area
+            description: The Community Area where the trip ended.
           - name: Fare
+            description: The fare for the trip.
           - name: Tips
+            description: The tip for the trip. Cash tips generally will not be recorded.
           - name: Tolls
+            description: The tolls for the trip.
           - name: Extras
+            description: Extra charges for the trip.
           - name: Trip_Total
+            description: Total cost of the trip, the total of the previous columns.
           - name: Payment_Type
+            description: Type of payment for the trip.
+            tests:
+              - accepted_values: 
+                  values: ['Credit Card', 'Unknown', 'Mobile', 'Prcard', 'No Charge', 'Dispute', 'Prepaid', 'Pcard']
           - name: Company
+            description: The taxi company.
           - name: Pickup_Centroid_Latitude
+            description: The latitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy.
           - name: Pickup_Centroid_Longitude
+            description: The longitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy.
           - name: Dropoff_Centroid_Latitude
+            description: The latitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy.
           - name: Dropoff_Centroid_Longitude
+            description: The longitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy.
