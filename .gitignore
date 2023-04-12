@@ -13,5 +13,5 @@ venv/
 dbt-airflow/logs
 dbt-airflow/plugins
 logs/
-/dbt/config
-/dbt/data
+dbt/config
+dbt/data
