@@ -22,14 +22,14 @@
 # How to run the project
 1. Go to the project root directory
 2. Run command: docker-compose up
-3. Open http://localhost:8080
+3. Open http://localhost:8000
 4. Log in using
-    username: airflow
-    password: airflow
+    username: airflow (if prompted)
+    password: airflow (if prompted)
 5. Go to Admin Tab -> Variables
 6. Add new variables
     dbt_user: Username in CTO Documentation (Chapter 7: Running the project)
-    dbt_password: Passowrd in CTO Documentation (Chapter 7: Running the project)
+    dbt_password: Passoword in CTO Documentation (Chapter 7: Running the project)
 7. Go to DAGs 
 8. Unpause and activate
 9. Check views and tables in snowflake

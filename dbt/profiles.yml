@@ -4,8 +4,8 @@ default:
     dev:
       type: snowflake
       account: ga82764.ap-south-1.aws
-      user: mldev3
-      password: 23MAP#levs
+      user: "{{ env_var('dbt_user') }}"
+      password: "{{ env_var('dbt_password') }}"
       role: ACCOUNTADMIN
       database: CHICAGO_DATA
       warehouse: compute_WH
@@ -15,5 +15,3 @@ default:
 
 
 
-      # user: "{{ env_var('dbt_user') }}"
-      # password: "{{ env_var('dbt_password') }}"

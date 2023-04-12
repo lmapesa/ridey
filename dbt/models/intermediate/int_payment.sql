@@ -28,6 +28,7 @@ final as (
         tips,
         tolls,
         extras,
+        trip_total,
         {% for payment_method in payment_methods -%}
             sum(case when payment_type = '{{ payment_type }}' then trip_total else 0 end) as {{ payment_type }}_trip_total,
         {% endfor -%}
